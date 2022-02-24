@@ -22,18 +22,12 @@ const maxFunc = function (num1, num2, num3) {
 };
 
 const minFunc = function (num1, num2, num3) {
-  if (num1 < num2) {
-    if (num1 < num3) {
-      minnum = num1;
-    } else {
-      minnum = num3;
-    }
-  } else if (num1 > num2) {
-    if (num2 < num3) {
-      minnum = num2;
-    } else {
-      minnum = num3;
-    }
+  if (num1 < num2 && num1 < num3) {
+    minnum = num1;
+  } else if (num2 < num1 && num2 < num3) {
+    minnum = num2;
+  } else if (num3 < num1 && num3 < num2) {
+    minnum = num3;
   } else {
     ("boshqattan urinib ko'ring");
   }
