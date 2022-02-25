@@ -23,3 +23,23 @@ let calc = function () {
 };
 
 calc();
+/*
+let average = function (arg) {
+  let sum = 0;
+  for (let i = 0; i < arg.length; i++) {
+    sum = sum + arg[i];
+  }
+  return sum / arg.length ;
+};
+console.log(average(bills));
+*/
+
+let kun = ["dushanba", "seshanba", "chorshanba", "Payshanba", "Juma"];
+let a = 2;
+for (let i = 0; i < kun.length; i++) {
+  a++;
+  console.log(kun[i]);
+  for (let j = 1; j < a; j++) {
+    console.log(`${j}-para`);
+  }
+}
