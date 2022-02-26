@@ -34,12 +34,15 @@ let average = function (arg) {
 console.log(average(bills));
 */
 
-let kun = ["dushanba", "seshanba", "chorshanba", "Payshanba", "Juma"];
-let a = 2;
-for (let i = 0; i < kun.length; i++) {
-  a++;
-  console.log(kun[i]);
-  for (let j = 1; j < a; j++) {
-    console.log(`${j}-para`);
-  }
-}
+// let kun = ["dushanba", "seshanba", "chorshanba", "Payshanba", "Juma"];
+// let a = 2;
+// for (let i = 0; i < kun.length; i++) {
+//   a++;
+//   console.log(kun[i]);
+//   for (let j = 1; j < a; j++) {
+//     console.log(`${j}-para`);
+//   }
+// }
+let num = Math.ceil(Math.random() * 10);
+
+let i = 0;
